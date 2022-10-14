@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-quiz-team-building-flaticons-flat-flat-icons.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        ul{
+            list-style-type: none;
+        }
+    </style>
+    <title>Quizz_App</title>
+</head>
+<body>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-quiz-team-building-flaticons-flat-flat-icons.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <b>Quizz App</b> 
+    </a>
+  </nav>
+  <br>
+    <div class="container" id="quiz">
+        
+    <div class="card">
+        <h5 id="questionHeading" class="card-header bg-dark text-white" >Quizz</h5>
+        <div class="card-body">
+           <!-- options -->
+           <ul>
+            <li> 
+                <input type="radio" name="optionList" id="a" class="optionList">
+                <label for="a" id="aOption">OptionList a</label>
+            </li>
+            <li>
+                <input type="radio" name="optionList" id="b" class="optionList">
+                <label for="b" id="bOption">OptionList b</label>
+            </li>
+            <li>
+                <input type="radio" name="optionList" id="c" class="optionList">
+                <label for="c" id="cOption">optioList c</label>
+            </li>
+            <li>
+                <input type="radio" name="optionList" id="d" class="optionList">
+                <label for="d" id="dOption">optionList d</label>
+            </li>
+        </ul>
+        <div class="text-center">
+            <button id="submit" class="btn btn-outline-secondary">Submit</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
